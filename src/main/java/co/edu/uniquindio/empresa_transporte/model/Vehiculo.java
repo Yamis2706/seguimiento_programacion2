@@ -17,7 +17,7 @@ public abstract class Vehiculo {
     public Vehiculo() {
     }
 
-    public String getPlaca() {
+    public  String getPlaca() {
         return placa;
     }
 

@@ -12,6 +12,9 @@ public class VehiculoTransporte extends Vehiculo{
         this.maximoPasajeros = maximoPasajeros;
     }
 
+    public VehiculoTransporte(String maximoPasajeros) {
+    }
+
     public int getMaximoPasajeros() {
         return maximoPasajeros;
     }

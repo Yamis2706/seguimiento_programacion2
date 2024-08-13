@@ -1,6 +1,5 @@
 package co.edu.uniquindio.empresa_transporte.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Propietario extends Persona {
@@ -15,8 +14,18 @@ public class Propietario extends Persona {
         this.listaVehiculosAsociados = listaVehiculosAsociados;
     }
 
+    public Propietario() {
+
+    }
+
     public void agregarVehiculoCarga(Vehiculo vehiculo) {
+        this.listaVehiculosAsociados.add(vehiculo);
+
+    }
+    public void agregarVehiculoTransporte(Vehiculo vehiculo) {
         this.listaVehiculosAsociados.add(vehiculo);
     }
 
+    public void setVehiculo(VehiculoCarga vehiculoCarga) {
+    }
 }
